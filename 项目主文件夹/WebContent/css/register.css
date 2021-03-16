@@ -1,0 +1,79 @@
+@charset "GB2312";
+
+*{
+		margin:0;
+		padding:0;
+	}
+	#wrap_register{
+		background-image:url("../images/bk_register.jpg");
+		background-position: center;
+		background-repeat:no-repeat;
+		width:100%;
+		height:550px;
+	}
+	#wrap_form{
+	width:500px;
+	height:300px;
+margin:0 auto;
+	padding-top:94px;
+		padding-left:20px;
+	text-align: center;
+	}
+	#wrap_form input{
+		margin-top:5px;
+	}
+	#wrap_form #l2{
+		margin-left:17px;
+	}
+	#wrap_form #l3{
+		margin-left:-47px;
+	}
+	#reg_pic{
+		width:100px;
+		margin:0 auto;
+	}
+	.tips{
+		font-family:"ºÚÌå";
+		font-size: 12px;
+		margin-left:10px;
+		color:#A29D9E;
+	}
+	.must{
+		margin-left:10px;
+		color:red;
+	}
+	#but1 img{
+		width:30px;
+		margin-top:2px;
+		margin-left:-120px;
+		display:inline-block;
+	}
+	#but2 {
+		position:relative;
+		float:right;
+		right:70px;
+		bottom:32px;
+	}
+	#but2 img{
+		width:30px;
+		margin-left:-200px;
+
+	}
+	#but2 button{
+		width:100px;
+	}
+	#but1 input,#but2 button:hover{
+		cursor:pointer;
+		
+	}
+	input:focus{
+		box-shadow:5px 5px 5px 1px #88F400;
+		transition:box-shadow 1s;
+-webkit-transition:box-shadow 1s;
+	}
+	#bkNews{
+		color:white;
+		font-family: "ºÚÌå";
+		margin-top:10px;
+		font-size:14px;
+	}

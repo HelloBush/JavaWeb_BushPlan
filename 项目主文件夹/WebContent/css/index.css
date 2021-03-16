@@ -1,0 +1,40 @@
+@charset "GB2312";
+*{
+margin:0;
+border:0;
+padding:0;
+}
+#wrap_welcome{
+width:1000px;
+height:550px;
+margin:0 auto;
+background-image:url("../images/bk_register.jpg");
+		background-position: center;
+		background-repeat:no-repeat;
+		border:none;
+}
+#wrap_screen{
+width: 540px;
+    height: 320px;
+    padding-top: 90px;
+    margin-left:257px;
+	background-image: url("../images/bkm.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	border-radius: 10px;
+	font-family:"¿¬Ìå";
+}
+#wrap_poem{
+	width:540px;
+	height:320px; 
+	font-size:15px;
+	overflow: hidden;
+	}
+	#wrap_poem marquee{
+		diplay:block;
+		width:100%;
+	}
+	#log_bkNews{
+	color:white;
+	margin-left:200px;
+	}

@@ -1,0 +1,124 @@
+@charset "GB2312";
+*{
+		margin:0;
+		padding:0;
+	}
+#wrap_create{
+		width:1000px;
+		height:600px;
+		margin:0 auto;
+	}
+	.choose{
+		float:left;
+		width:30%;
+		height:350px;
+		margin-left:23px;
+		margin-top:23px;
+	}
+	.choose .hand {
+		width:100px;
+	border:none;
+	}
+	.choose .but_c{
+		width:150px;
+		cursor: pointer;
+		border:none;
+	}
+	.choose .but_c:active{
+		width:148px;
+	}
+	.chose{
+		margin-top:5px;
+	}
+	#wrap_form{
+		width:300px;
+		height:400px;
+		float:left;
+		margin-left:1px;
+		padding-right:20px;
+		background-image: url("../images/bb2.png");
+		background-repeat: no-repeat;
+		text-align: center;
+		padding-top:60px;
+		padding-left:10px;
+		font-family: "ºÚÌå";
+	}
+	
+	#wrap_bkNews{
+		width:300px;
+		height:400px;
+		float:left;
+		margin-left:1px;
+		padding-right:20px;
+		background-image: url("../images/bb2.png");
+		background-repeat: no-repeat;
+		padding-top:50px;
+		font-family: "ºÚÌå";
+		text-align: center;
+	}
+	#wrap_form_d input{
+		margin-top:25px;
+	}
+	#wrap_form_d #d_i1{
+		margin-top:0px;
+		width:120px;
+	}
+	#wrap_form_d #d_i3{
+		margin-top:5px;
+		width:80px;
+		height:30px;
+		background:linear-gradient(green 5%,lightgreen);
+		border-radius: 20px;
+		color:white;
+	}
+	#wrap_form_d #d_i3:hover{
+		cursor: pointer;
+	}
+	.tips{
+		color:#908D8D;
+		font-size:14px;
+		font-family:"¿¬Ìå";
+	}
+	
+	.bkNews{
+		margin-left:70px;
+		margin-top:10px;
+		width:200px;
+		 white-space:wrap;
+	}
+	.plan{
+		margin-left:25px;
+		margin-top:14px;
+	}
+	#wrap_form_m #m_i3{
+		margin-top:5px;
+		width:80px;
+		height:30px;
+		background:linear-gradient(green 5%,lightgreen);
+		border-radius: 20px;
+		color:white;
+	}
+	#wrap_form_m #m_i3:hover{
+		cursor: pointer;
+	}
+	 #p_i1, #p_i2{
+		width:120px;
+		margin-top:1px;
+	}
+	#wrap_form_p #p_i1{
+	margin-top:20px;
+	}
+	#wrap_form_p #p_i3{
+		margin-top:1px;
+		width:80px;
+		height:30px;
+		background:linear-gradient(green 5%,lightgreen);
+		border-radius: 20px;
+		color:white;
+	}
+	#wrap_form_p #p_i3:hover{
+		cursor: pointer;
+	}
+	#wrap_form_p form{
+	margin-top:-20px;
+	}

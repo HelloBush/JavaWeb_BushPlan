@@ -1,0 +1,12 @@
+
+<div class="wrap_apple">
+		<img class= "apple" id="1" src="images/app_red.png"/>
+		<img class= "apple" id="2" src="images/app_yellow.png"/>
+		<img class= "apple" id="3" src="images/app_blue.png"/>
+		<img class= "apple" id="4" src="images/app_green.png"/>
+		<img class= "apple" id="5" src="images/app_pink.png"/>
+		<img class= "apple" id="6" src="images/app_purple.png"/>
+		<img class= "apple" id="7" src="images/app_brown.png"/>
+		<img class= "apple" id="8" src="images/app_black.png"/>
+		<img class= "apple" id="9" src="images/app_eat.png"/>
+</div>

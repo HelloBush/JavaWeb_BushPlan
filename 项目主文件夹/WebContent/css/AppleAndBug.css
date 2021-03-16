@@ -1,0 +1,45 @@
+@charset "GB2312";
+	#app{
+		position:absolute;
+		width:200px;
+		height:25px;
+		transition: top 1s, left 1s;
+		top:160px;
+		left:460px;
+	}
+	#app img{
+		width:20px;
+		height:25px;
+	}
+	#bug{
+		position:absolute;
+		width:30px;
+		height:30px;
+		transition: top 3s, left 3s,transform 1s;
+		top:155px;
+		left:517px;
+	}
+	#bug_img:hover{
+	cursor:pointer;
+	}
+	#bug img{
+		width:30px;
+		height:30px;
+	}
+	.right{
+		transform: rotateY(180deg);
+	}
+	#app:after{
+		1;
+	}
+	#app_text{
+		font-family: "ºÚÌå";
+		font-size:13px;
+		position:relative;
+		top:-25px;
+		left:-20px;
+		transition: opacity 1s;
+	}
+	.flash{
+		opacity:0;
+	}

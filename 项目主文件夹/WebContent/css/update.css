@@ -1,0 +1,46 @@
+@charset "GB2312";
+
+.wrap_update{
+		width: 450px;
+		height:270px;
+		position:relative;
+		bottom:540px;
+		text-align: center;
+		margin:0 auto;
+		background-image: url("../images/treeb.jpg");
+		background-repeat: no-repeat;
+		border-radius: 20px;
+		padding-top:140px;
+		
+	}	
+	.wrap_update h3{
+		margin-top: -100px;
+		color:yellow;
+		font-size:30px;
+		font-family: "¿¬Ìå";
+	}
+	.wrap_update form{
+		margin-top:100px;
+	}
+	.wrap_update input[type=submit]{
+		margin-top:5px;
+		width:100px;
+		height:30px;
+		background:linear-gradient(green 5%,lightgreen);
+		border-radius: 20px;
+		color:white;
+		font-size:12px;
+	}
+	.wrap_update input[type=submit]:hover{
+		cursor:pointer;
+	}
+	.update_bkNews{
+	width:200px;
+	margin:0 auto;
+	text-align:center;
+	margin-top:80px;
+	}
+	.update_bkNews img{
+	width: 60px;
+	border-radius:20px;
+	}

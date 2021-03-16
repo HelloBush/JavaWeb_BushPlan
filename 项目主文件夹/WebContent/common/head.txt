@@ -1,0 +1,54 @@
+<%@ page language="java" contentType="text/html;charset=GB2312" pageEncoding="GB2312"%>
+<%@ taglib tagdir="/WEB-INF/tags" prefix="mytag" %>
+<%@ page import = "mytool.Tool" %>
+<link rel="stylesheet" type="text/css" href="css/head.css">
+<style>
+	#msg #img_dl{
+	width:100px;
+	border-radius: 100px;
+	margin-left:10px;
+	margin-bottom:10px;
+	}
+</style>
+<script>
+function isLog(){
+var user = document.getElementById("user");
+if(user==null){
+alert("请先登录或注册哦！");
+return false;}else{
+return true;
+}
+}
+
+</script>
+<div id="wrap_banner">
+<img src="images/banner.png" id="banner" onclick="javascript:window.location.href='index.jsp'"/>
+<div>
+	<div id="nav">
+	<ul>
+<li><a href="register.jsp"><img src="images/p_register.png"/></a></li>
+<li><a href="login.jsp"><img src="images/p_login.png"/></a></li>
+<li><a href="create.jsp"><img src="images/p_create.png" onclick="return isLog()" /></a></li>
+<li><a href="query.jsp"><img src="images/p_query.png" onclick="return isLog()" /></a></li>
+</ul>
+	</div>
+<div id="msg">
+<div id="servlet_data">
+<% 
+if(Tool.getUser(request)!=null&&Tool.getUser(request)!=""){
+%>
+<mytag:Info/>
+<div><img src="images/logo.png" />当前用户:<span id="user"><%=user%></span></div>
+<div><img src="images/logo.png" />当前积分:<%=point%></div>
+<div><img src="images/logo.png"/>达标个数:<%=count%></div>
+<div><%=error%></div>
+<div><a href="Logout"><button id="logout">注销登录</button></a></div>
+<% }else{%>
+<span id="info">请先登录或注册哦！</span>
+<img src="images/dl.gif" id="img_dl"/>
+<%}%>
+</div>
+</div>
+<img src="images/bbb.jpg" id="bbb"/>
+</div>
+</div>

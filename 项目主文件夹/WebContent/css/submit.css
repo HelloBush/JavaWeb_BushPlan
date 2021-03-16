@@ -1,0 +1,58 @@
+@charset "GB2312";
+
+.wrap_submit{
+		width: 450px;
+		height:270px;
+		position:relative;
+		bottom:540px;
+		text-align: center;
+		margin:0 auto;
+		background-image: url("../images/treeb.jpg");
+		background-repeat: no-repeat;
+		border-radius: 20px;
+		padding-top:140px;
+		
+	}	
+	.wrap_submit h3{
+		margin-top: -100px;
+		color:yellow;
+		font-size:30px;
+		font-family: "¿¬Ìå";
+	}
+	.wrap_submit form{
+		margin-top:60px;
+	}
+	.wrap_submit input[type=submit]{
+		margin-top:5px;
+		width:100px;
+		height:30px;
+		background:linear-gradient(green 5%,lightgreen);
+		border-radius: 20px;
+		color:white;
+		font-size:12px;
+	}
+	.wrap_submit input[type=submit]:hover{
+		cursor:pointer;
+	}
+	.submit_bkNews{
+	width:200px;
+	margin:0 auto;
+	text-align:center;
+	margin-top:80px;
+	}
+	.submit_bkNews img{
+	width: 60px;
+	border-radius:20px;
+	}
+	.wrap_submit input[name=p_num]{
+	width:20px;
+	text-align:center;
+	}
+	.wrap_submit input[name=m_num_m]{
+	width:30px;
+	text-align:center;
+	}
+	.wrap_submit input[name='d1']{
+	width:80px;
+	text-align:center;
+	}

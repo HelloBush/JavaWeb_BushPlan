@@ -1,0 +1,83 @@
+@charset "GB2312";
+<!--×¢ÊÍ>
+*{
+	margin:0 auto;
+	padding:0;
+}
+body{
+	background-color:#FEFEFE;
+	}
+
+#wrap_banner{
+		width:1000px;
+		height:230px;
+		margin:0 auto;
+	}
+#banner{
+		margin:0 auto;
+		width:500px;
+		height:180px;
+		float:left;
+	}
+	#banner:hover{
+	cursor:pointer;
+	}	
+
+	#nav{
+		width:220px;
+		height:180px;
+		padding-left:10px;
+		margin-left:55px;
+		float:left;	
+		background-image: url("../images/bk5.jpg") ;
+		background-repeat: no-repeat;
+	}
+	#nav ul{
+	margin-left:36px;
+list-style-type: none;
+		padding:10px;
+	}
+#nav ul li{
+		margin-top:7px;
+	}
+#nav ul img{
+		width:70%;
+		border:none;
+	}
+#msg{
+float:right;
+margin-top:-10px;
+padding-left:60px;
+padding-top:65px;
+background-image: url("../images/bkk.jpg") ;
+width:150px;
+height:170px;
+border-radius: 50px 50px 50px 0px;
+}
+#msg div{
+		margin-top:5px;
+		margin-left:-8px;
+		font-family:"¿¬Ìå";
+		font-size:15px;
+	}
+	#msg img{
+		width:25px;
+		border-radius: 20px;
+	}
+	#logout{
+		width:80px;
+		margin-left:25px;
+		border-radius: 7px;
+		background:#1E9B0F;
+		color:#FFF;
+		font-family: "ºÚÌå";
+		font-size:13px;
+		opacity: 0.9;
+	}
+	#logout:hover{
+	cursor:pointer;
+	}
+	#bbb{
+		width:780px;
+		height:50px;
+	}

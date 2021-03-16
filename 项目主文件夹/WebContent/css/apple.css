@@ -1,0 +1,8 @@
+@charset "GB2312";
+.apple{
+		position:absolute;
+		width:20px;
+		top:100px;
+		transition: top 1s,opacity 3s;
+		display:none;
+	}
